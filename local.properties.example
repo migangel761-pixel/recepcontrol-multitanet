@@ -1,0 +1,4 @@
+# Copy these entries to local.properties for local development.
+# Never commit local.properties or a secret/service_role key.
+SUPABASE_URL=https://TU-PROJECT-REF.supabase.co
+SUPABASE_PUBLISHABLE_KEY=

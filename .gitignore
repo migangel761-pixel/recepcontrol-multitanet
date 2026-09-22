@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env*
+!.env.example
+.tools/
+.gradle/
+.gradle-user-home/
+local.properties
+src/*.backup-*
+supabase/backups/
+*.tsbuildinfo

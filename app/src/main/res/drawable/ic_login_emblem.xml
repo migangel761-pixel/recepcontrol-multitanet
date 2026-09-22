@@ -1,0 +1,70 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    
+    <!-- Outer Dark High-Contrast Circle -->
+    <path
+        android:pathData="M48,6 C71.196,6 90,24.804 90,48 C90,71.196 71.196,90 48,90 C24.804,90 6,71.196 6,48 C6,24.804 24.804,6 48,6 Z"
+        android:fillColor="#0F172A"/>
+
+    <!-- Inner Border Ring Accent -->
+    <path
+        android:pathData="M48,11 C68.435,11 85,27.565 85,48 C85,68.435 68.435,85 48,85 C27.565,85 11,68.435 11,48 C11,27.565 27.565,11 48,11 Z"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2"
+        android:fillColor="#1E293B"/>
+
+    <!-- Tower 1 (Main Building) -->
+    <path
+        android:pathData="M31,27 L51,27 L51,72 L31,72 Z"
+        android:fillColor="#0284C7"/>
+
+    <!-- Tower 1 Roof Cornice -->
+    <path
+        android:pathData="M29,27 L53,27 L51,23 L31,23 Z"
+        android:fillColor="#7DD3FC"/>
+
+    <!-- Tower 1 Windows -->
+    <path
+        android:pathData="M35,32 H39 V36 H35 Z M43,32 H47 V36 H43 Z M35,40 H39 V44 H35 Z M43,40 H47 V44 H43 Z M35,48 H39 V52 H35 Z M43,48 H47 V52 H43 Z"
+        android:fillColor="#F0F9FF"/>
+
+    <!-- Tower 2 (Side Building) -->
+    <path
+        android:pathData="M51,36 L65,36 L65,72 L51,72 Z"
+        android:fillColor="#0369A1"/>
+
+    <!-- Tower 2 Roof -->
+    <path
+        android:pathData="M50,36 L66,36 L64,33 L52,33 Z"
+        android:fillColor="#38BDF8"/>
+
+    <!-- Tower 2 Windows -->
+    <path
+        android:pathData="M55,41 H59 V45 H55 Z M55,49 H59 V53 H55 Z"
+        android:fillColor="#BAE6FD"/>
+
+    <!-- Ground Line -->
+    <path
+        android:pathData="M24,72 L72,72"
+        android:strokeColor="#475569"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"/>
+
+    <!-- Shield in Foreground (Smart Reception / Security) -->
+    <path
+        android:pathData="M48,47 C58.5,47 62,52 62,60 C62,70.5 48,77 48,77 C48,77 34,70.5 34,60 C34,52 37.5,47 48,47 Z"
+        android:fillColor="#059669"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"/>
+
+    <!-- Checkmark inside Shield -->
+    <path
+        android:pathData="M42,61 L46.5,65.5 L54.5,56"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+</vector>

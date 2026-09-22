@@ -1,0 +1,10 @@
+{
+  "name": "RecepControl MultiTenant",
+  "short_name": "RecepControl",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f1f5f9",
+  "theme_color": "#0f172a",
+  "description": "Gestión de recepción y novedades para conjuntos residenciales.",
+  "icons": [{ "src": "/assets/recepcontrol-logo.jpg", "sizes": "192x192", "type": "image/jpeg" }]
+}
